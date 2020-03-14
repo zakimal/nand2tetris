@@ -4,8 +4,7 @@
 // File name: projects/12/Math.jack
 
 /**
- * A library of commonly used mathematical functions.
- * Note: Jack compilers implement multiplication and division using OS method calls.
+ * A basic math library.
  */
 class Math {
 
@@ -17,19 +16,11 @@ class Math {
     function int abs(int x) {
     }
 
-    /** Returns the product of x and y. 
-     *  When a Jack compiler detects the multiplication operator '*' in the 
-     *  program's code, it handles it by invoking this method. In other words,
-     *  the Jack expressions x*y and multiply(x,y) return the same value.
-     */
+    /** Returns the product of x and y. */
     function int multiply(int x, int y) {
     }
 
-    /** Returns the integer part of x/y.
-     *  When a Jack compiler detects the multiplication operator '/' in the 
-     *  program's code, it handles it by invoking this method. In other words,
-     *  the Jack expressions x/y and divide(x,y) return the same value.
-     */
+    /** Returns the integer part of x/y. */
     function int divide(int x, int y) {
     }
 
